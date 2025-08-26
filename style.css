@@ -1,0 +1,13 @@
+:root{
+  --cor_fundo:#01080E;
+  --cor_principal: #0B0D20 ;
+  --cor_secundaria:#212333 ;
+  --cor_destaque:#2BDEFD;
+  --cor_texto: #D7F9FF;
+}
+
+
+
+ body{
+background-color: var();
+ }
