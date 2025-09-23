@@ -5,51 +5,51 @@ const caixaResultados = document.querySelector(".caixa-resultados");
 const textoResultados = document.querySelector(".texto-resultados");
 
 const perguntas = [ {
-    enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+    enunciado: "Após se formar no ensino médio, você decide seguir carreira na medicina. Qual é a sua principal motivação?",
     alternativas: [
         { 
 
-            texto: "Isso é assustador!",
-            afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+            texto: "Ajudar as pessoas e ter um impacto positivo na vida delas.",
+            afirmacao: "Você sempre teve um forte desejo de cuidar dos outros e fazer a diferença na saúde das pessoas."
         },
         {
-         texto: "Isso é maravilhoso!" ,
-         afirmacao: "aQuis saber como usar IA no seu dia a dia"
+         texto: "A estabilidade e o prestígio da profissão médica." ,
+         afirmacao: "Você se sentiu atraído pelos benefícios e reconhecimento que a profissão médica oferece"
         }
     ]
 },
 {
-    enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+    enunciado: "Durante a faculdade de medicina, você se depara com a complexidade do coração humano e as cirurgias cardíacas. O que mais te impressiona?",
     alternativas: [
         {
-     texto:   "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-     afirmacao:"Conseguiu utilizar a IA para buscar informações úteis."
+     texto:   "A precisão e a habilidade necessárias para operar um órgão tão vital.",
+     afirmacao:"A complexidade técnica e a responsabilidade da cirurgia cardiovascular despertaram sua paixão."
     },
      {
-      texto:   "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-      afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."   
+      texto:   "A tecnologia e os equipamentos avançados usados nos procedimentos.",
+      afirmacao: "Você se fascinou com a tecnologia de ponta que torna essas cirurgias possíveis."   
     }   
     ]
 },
 { 
-enunciado:"Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+enunciado:"No seu primeiro ano de residência em cirurgia cardiovascular, você precisa escolher um foco de estudo. Qual caminho você segue?",
 alternativas: [
     {
 
-       texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-       afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+       texto: "Cirurgia de revascularização do miocárdio, para tratar artérias do coração.",
+       afirmacao: "Você dedicou-se ao tratamento de doenças coronárias, salvando vidas de pacientes com infarto."
     },
        {
-           texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-           afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+           texto:"Cirurgia de reparo de válvulas, para restaurar o fluxo sanguíneo do coração.",
+           afirmacao: "Você se especializou em cirurgias de válvulas, melhorando a qualidade de vida de muitos pacientes."
         }
 ]
 },
 {
-    enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+    enunciado: "Um paciente com uma doença rara precisa de uma cirurgia complexa. A decisão é sua: o que fazer?",
     alternativas: [
         {
-          texto:  "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+          texto:  "Seguir o protocolo padrão, mesmo com os riscos conhecidos.",
           afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
         },
         {
