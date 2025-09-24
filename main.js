@@ -53,21 +53,21 @@ alternativas: [
           afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
         },
         {
-         texto:   "Criar uma imagem utilizando um gerador de imagem de IA",
-         afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+         texto:   "Consultar a equipe para encontrar uma abordagem inovadora e personalizada.",
+         afirmacao: "Sua colaboração e busca por novas abordagens levaram à descoberta de uma técnica que beneficiou o paciente e outros no futuro."
         }
     ]
 },
    {
-enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+enunciado: "Após anos de sucesso, você é convidado a palestrar sobre sua experiência. Qual a mensagem principal que você quer transmitir aos futuros cirurgiões?",
     alternativas: [
         {
-          texto:  "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-          afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+          texto:  "Falar sobre os desafios da carreira e a importância do sacrifício pessoal",
+          afirmacao: "Você transmitiu a ideia de que a cirurgia cardiovascular exige dedicação extrema e superação de obstáculos."
         },
         {
-            texto:"O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-            afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final."
+            texto:"Destacar a importância da empatia com o paciente e do trabalho em equipe.",
+            afirmacao: "Você enfatizou que o sucesso na cirurgia cardiovascular não depende apenas de habilidade, mas também de compaixão e colaboração."
         }
     ]
 }
@@ -108,7 +108,7 @@ mostraPergunta();
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049....";
+    caixaPerguntas.textContent = "Sua jornada como cirurgião cardiovascular...";
     textoResultados.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 

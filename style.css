@@ -1,9 +1,9 @@
 :root{
-  --cor-fundo:#01080E;
-  --cor-principal: #0B0D20 ;
-  --cor-secundaria:#212333 ;
-  --cor-destaque:#2BDEFD;
-  --cor-texto: #D7F9FF;
+  --cor-fundo:#08010E; /* Um roxo escuro quase preto */
+  --cor-principal:  #200B0D; /* Um tom de vinho profundo */
+  --cor-secundaria: #332123; /* Um marrom avermelhado escuro */
+  --cor-destaque: #FD2B2B; /* Um vermelho vibrante para o destaque */
+  --cor-texto:#FFD7D7; /* Um tom claro de rosa para o texto */
 }
 
 body{
@@ -14,7 +14,10 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
+  background-image: url('img.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .caixa-principal{
@@ -29,7 +32,7 @@ h1{
 
 }
 
-.button{
+button{
   background-color: var(--cor-secundaria);
 color: var(--cor-texto);
 border:none ;
@@ -38,7 +41,7 @@ padding: 15px;
 transition: background-color 0.3s;
 
 }
-.button:hover{
+button:hover{
   background-color: var(--cor-destaque);
   color: var(--cor-principal);
 
